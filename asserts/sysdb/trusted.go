@@ -56,6 +56,57 @@ eklxk9wzBA8AecBMCwCzIRHDNpD1oa2we38bVFrOug6e/VId1k1jYFJjiLyLCDmV8IMYwEllHSXp
 LQAdm3xZ7t4WnxYC8YSCk9mXf3CZg59SpmnV5Q5Z6A5Pl7Nc3sj7hcsMBZEsOMPzNC9dPsBnZvjs
 WpPUffJzEdhHBFhvYMuD4Vqj6ejUv9l3oTrjQWVC
 `
+	encodedBadgerAccount = `type: account
+authority-id: canonical
+account-id: 0UBOFtvmBvKkWOfwlOdWi6nYhDgxBnV3
+display-name: Badger Technologies
+timestamp: 2017-08-02T15:12:41.028285Z
+username: badger-tech
+validation: unproven
+sign-key-sha3-384: BWDEoaqyr25nF5SNCvEv2v7QnM9QsfCc0PBMYD_i2NGSQ32EF2d4D0hqUel3m8ul
+
+AcLBUgQAAQoABgUCWYHr6QAAGp8QAC42fKKbFsvNft4sDr18rh+1LcePvAezKUZc6qru+1D19Asj
+7/WBBBHGK+GLg1s3RsWEwe42b+sCzmG3R5BFy6lDvXO/VaUqY/nuhG3eXAlujtpb5teXFFQHI/UE
+TlhPsquA8+WDuS+J86rEbBVdvmp5gUM6DWqiPLOcdQSSdb46/+7fRpziMWmO9HXDcEa00BdGtaev
+uDXQnJcR1eZu2RRucKGmk2m3CmD/RiVOEd4TXyc8K7GM4n5/yPHCZk6kMNvqrK/B5klAf7fvIQm7
+fhVNvYx916DL/dOnh+sHrtYVeh72MdTHo3vrvpGUnMGG9q/mA9M3S8qT5+HTdMx4HXRTZkBa/Xsu
+w8qPmz/W0ptjDyIA3MqkXgrDnMJj2o42ClGJLkuQhaUIcTq3nUXZokvlRIwQYyYAjvcVY06CPD9r
+2mmqqvVX7Bxkqhl0/djL88d5zzk4xNZB5kcy6V20H+Az/jJXZv0TajWSzSYkWeHrUODDlwIjsBSi
+GGC67xU6mwHupTBPu28eL4GJ24/Wasdl05yfIwTiXRk5KwO9PynpKQuq21IqKKLqXaRgcTiSClBf
+Q93KY6PkYCRGui3+cd+2J5IIeEYFxZP3KckUqmxgzBxTdYzImE1BYB1/9eK+qXSRGO62FBNR3hsB
+fQVYJQEt7IBndr8ul6q/5yyumzNH
+`
+	encodedBadgerAccountKey = `type: account-key
+authority-id: canonical
+public-key-sha3-384: E2EyRbU8HRPd3XhAzmnicBI2GRPpYfBo28LmhAY9lS22ItJOs2l8Doc92PWbiRtz
+account-id: 0UBOFtvmBvKkWOfwlOdWi6nYhDgxBnV3
+name: badger-devops
+since: 2021-04-29T13:45:50Z
+body-length: 717
+sign-key-sha3-384: BWDEoaqyr25nF5SNCvEv2v7QnM9QsfCc0PBMYD_i2NGSQ32EF2d4D0hqUel3m8ul
+
+AcbBTQRWhcGAARAAx9bDfoLUE3dy8ezeSvh556cCn1noL0szyxIehrPvgIB2sBcYHD7Zkqz8NPxX
+zxkc7tyNzHNfVLNOQJl6btDP7YN4n5Ls2vdW3wzG0slieng5acWEo1cVIyqpnzAc4DTnAOk6VzUm
+sjQLrSzmjnXj4g6jyq6b7bVMdcfUoZnmg7lRHVSWWrrSjwIFAz62K95cbf2C+XhwPWxM7Y+VAZA9
+Z2ts4tfYJ80G9YKtihTzaLY0gDgY2RQg2oCWuAJDHuEkmOd7eb3qb0q0Z5MR/MddC8OsCYJDqdJA
+24329TYnnYSJFzFFojP+B/nrsWNin7WTfziFv4xBlcuoM6TL4iIgCNxi/X1KMWEw78QL4swV6Kml
+u58IPf+ZifMX9cIXWDv7E4I/YYKzZDaPg6ZSqvl+Iq4Sf47RJ66qqfde1UhLVpsCmn4o4BuVa7ui
+C+Z6rpR/0TTtU3FWEyk6I+1FpGMIJGjMPasYl+WTnnszdRkUrhfjt9+8FVLG3Pbcl+RMtP4vDjMd
+roiml72Zzknj05O0M93OlD626Iz7Uuervy46KXIdTXokpqeL+4OcDU6k2PfPe1bHZMuFYYUKYBRE
+ubhVehkJMZpyvIcLA3bFpGKxpFQ4ZbY5kgzt5yhlEPLrxetWXkiE4UNgyVmJ/eCS+gTMoO+qPPwr
+9CL7hmb9NTuSsgEAEQEAAQ==
+
+AcLBUgQAAQoABgUCYIq4lAAAHJoQAHeYJ0ZFJbugAISK5V/V03y20Fy/7JyR9dyjb9A7rPGltsU1
+SSXU/ld1Dqs8GHzKfOKAJElyrSJvjE1IvcguaFuSXKPGggzORLiyOO5FDUsJZ+P3ikZ7lnO+Ieqq
+Q53Z9n37f8X+hsiknxpmqtBwAk5RovRT05k+W+BKULCYha++SPn3FXjN1rRU6qGP0B5diZ+eg97A
+PT+gzZ7ug0+WMoyOHZvJHPPt/Y9/sGQzFOL5tn2WFN1PpIF9CcDmOqJCOfFxEU7VFVa01v2sMkwX
+8GxOuyw5wyi482wVMyMwnI1+uyMn5R+bCRjEV2fj9izTdGnde1xlpEZd4Uca+FkKoUDtAXQWAX3a
+ayGUKQHC5j8vAgbv1ZmlIcvunXUiO3Idam1mXFCOCUyZ5U3oBC36Nrxh5ef273xmFEesUEGRiRqD
+ECWIhYu1zTUZ+aW0BxaZjacl96cyJH4fYc1vVSVItQlFg0nyg6p4zD7phkA8NzfPQ7psy9qocFUN
+8usCBj7ufQIvVsl313AZBkgeJhvdxd2a9rehAg/+EWlkw90axa8dC++fZQH2F9PpclszO02zNXtZ
+Op1ImOBcR4WI58Zj71PkS83FFNM9hX+U1QSoWnqOguOgdLssVQ0cIVznUtQLTUAu2wdHcoe4PxU+
+i5ywh7ZfjXKbTKYfV+vHmsOH4Sch
+`
 
 	encodedCanonicalRootAccountKey = `type: account-key
 authority-id: canonical
@@ -124,7 +175,15 @@ func init() {
 	if err != nil {
 		panic(fmt.Sprintf("cannot decode trusted assertion: %v", err))
 	}
-	trustedAssertions = []asserts.Assertion{canonicalAccount, canonicalRootAccountKey}
+	badgerAccount, err := asserts.Decode([]byte(encodedBadgerAccount))
+	if err != nil {
+		panic(fmt.Sprintf("cannot decode trusted assertion: %v", err))
+	}
+	badgerAccountKey, err := asserts.Decode([]byte(encodedBadgerAccountKey))
+	if err != nil {
+		panic(fmt.Sprintf("cannot decode trusted assertion: %v", err))
+	}
+	trustedAssertions = []asserts.Assertion{canonicalAccount, canonicalRootAccountKey, badgerAccount, badgerAccountKey}
 }
 
 // Trusted returns a copy of the current set of trusted assertions as used by Open.
