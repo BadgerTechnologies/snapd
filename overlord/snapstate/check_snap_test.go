@@ -376,7 +376,8 @@ version: 2
 	st.Unlock()
 	err = snapstate.CheckSnap(st, "snap-path", "gadget", nil, nil, snapstate.Flags{}, s.deviceCtx)
 	st.Lock()
-	c.Check(err, ErrorMatches, `cannot replace signed gadget snap with an unasserted one`)
+	// BADGER: this is allowed on badger!
+//	c.Check(err, ErrorMatches, `cannot replace signed gadget snap with an unasserted one`)
 }
 
 func (s *checkSnapSuite) TestCheckSnapGadgetAdditionProhibited(c *C) {

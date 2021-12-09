@@ -493,7 +493,8 @@ func checkGadgetOrKernel(st *state.State, snapInfo, curInfo *snap.Info, snapf sn
 	}
 
 	if currentSnap.SnapID != "" && snapInfo.SnapID == "" {
-		return fmt.Errorf("cannot replace signed %s snap with an unasserted one", kind)
+		// BADGER: allow unasserted snaps to replace asserted snaps
+		//return fmt.Errorf("cannot replace signed %s snap with an unasserted one", kind)
 	}
 
 	if currentSnap.SnapID != "" && snapInfo.SnapID != "" {
