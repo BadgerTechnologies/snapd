@@ -492,6 +492,30 @@ func checkGadgetOrKernel(st *state.State, snapInfo, curInfo *snap.Info, snapf sn
 		return fmt.Errorf("cannot find original %s snap: %v", kind, err)
 	}
 
+	// BADGER: ensure force-kernel-extraction does not change (anti-brick!)
+	var current_force_extraction, new_force_extraction bool
+	_, err = snapf.ReadFile("meta/force-kernel-extraction")
+	if err == nil {
+		new_force_extraction = true
+	} else {
+		new_force_extraction = false
+	}
+	_, current_snapf, err := openSnapFile(currentSnap.MountFile(), nil)
+	if err != nil {
+		return err
+	}
+	_, err = current_snapf.ReadFile("meta/force-kernel-extraction")
+	if err == nil {
+		current_force_extraction = true
+	} else {
+		current_force_extraction = false
+	}
+	if current_force_extraction && !new_force_extraction {
+		return fmt.Errorf("cannot replace a force-kernel-extraction snap with a non force-kernel-extraction one")
+	} else if !current_force_extraction && new_force_extraction {
+		return fmt.Errorf("cannot replace a non force-kernel-extraction snap with a force-kernel-extraction one")
+	}
+
 	if currentSnap.SnapID != "" && snapInfo.SnapID == "" {
 		// BADGER: allow unasserted snaps to replace asserted snaps
 		//return fmt.Errorf("cannot replace signed %s snap with an unasserted one", kind)
